@@ -1,0 +1,73 @@
+.quadro2 { 
+    display: flexbox;
+    margin: 0 auto;
+    flex-direction: row;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.coluna {
+    display: flexbox;
+    padding: 1vh 1vw;
+}
+
+.coluna1 {
+    width: 75%;
+}
+
+.coluna2{
+    padding: 1vh;
+}
+
+.botaoCamp {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #48a048;
+    margin: 1vh;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.criaEventos {
+    margin-right: 2vh;
+    text-align: center;
+    background-color: rgb(201, 170, 150);
+    border-radius: 20px;
+   
+}
+
+.campo {
+    font-size: 17px;
+    display:block;
+    margin: auto;
+    padding: 6px;
+    text-align: center;
+}
+
+.entrada {
+    padding-bottom: 2vw;
+    font-size: 17px;
+    width: 50vh;
+    border: 1px solid #dddfe2;
+    margin-top: 3.5vh;
+}
+
+.botao{
+    text-align: center;
+    display: block;
+    padding-top: 6px;
+    direction: ltr;
+}
+.campoLabel label {
+    text-align: center;
+    font-size: unset;
+    font-family: -webkit-pictograph;
+    position: absolute;
+}
+.campoLabel button {
+    margin-top: 3vh;
+}

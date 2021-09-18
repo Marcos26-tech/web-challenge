@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(19, 18, 18);
+}
+.container{
+  background-image: url("../../Comunidade/src/img/arvores.jpg");
+  width: 100%;
+  background-size: cover;
+}
+.quadro2, .coluna1 .coluna{ 
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8%;
+}
+.grupos{
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+}
